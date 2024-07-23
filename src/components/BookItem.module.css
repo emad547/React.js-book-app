@@ -1,0 +1,46 @@
+.bookContainer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #303030;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.infoContainer {
+  display: flex;
+}
+
+.infoContainer img {
+  width: 70px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.bookInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bookTitle {
+  font-weight: 800;
+  font-size: 1.15rem;
+}
+
+.bookAuthor {
+  font-weight: 700;
+}
+
+.bookInfo span {
+  margin-right: 15px;
+}
+
+.likeBtn {
+  height: fit-content;
+  background: none;
+  border: none;
+}
+
+.likeBtn img {
+  width: 20px;
+}

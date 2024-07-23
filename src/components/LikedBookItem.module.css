@@ -1,0 +1,16 @@
+.likedBookContainer {
+  display: flex;
+  align-items: center;
+  background-color: #7c6ee9;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.likedBookContainer:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.likedBookImg {
+  width: 40px;
+  margin-right: 10px;
+}
